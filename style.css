@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    font-family: 'poppins' sans-serif;
+}
+
+/* NAVBAR STYLES */
+.navbar img{
+    width: 100px;
+}
+
+.navbar .nav-link{
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* HERO STYLES */
+.hero .card-title{
+    margin-top: 50px;
+}
+
+.hero .lead{
+    font-weight: 300;
+}
+
+.hero .card-img{
+    width: 100%;
+    height: 120vh;
+}
+
+/* MENU STYLES */
+.menu{
+    background-color: #cfdbe3;
+}
+
+.menu .section-title{
+    font-weight: 700;
+    color: #131313;
+}
+
+.menu .card{
+    background-color: #131313;
+    color: #fff;
+}
+
+.menu .card img{
+    border: 2px solid #fff;
+}
+
+.menu .card .card-title{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.menu .card .card-text{
+    margin-top: -10px;
+}
+
+.menu .card .btn{
+    margin-top: -10px;
+    font-weight: 700;
+}
+
+/* TESTIMONI STYLES */
+.testimoni .card-img{
+    width: 100%;
+    height: 100vh;
+}
+
+.testimoni .card-img-overlay{
+    margin: 200px;
+}
+
+.testimoni .card-text{
+    font-weight: 500;
+}
+
+.testimoni .card-title{
+    font: bold 20px 'poppins';
+    margin-top: -20px;
+}
+
+.testimoni .farras{
+    position: absolute;
+    margin-top: 110px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.footer-container{
+    width: 100%;
+    height: 10vh;
+    background-color: #151212;
+    color: white;
+}
+
+.footer h5{
+    text-align: center;
+    padding: 15px 0 0 0;
+}
